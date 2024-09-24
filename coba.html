@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Recommendation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .place-card {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .place-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+            margin-right: 20px;
+            background-color: #ddd;
+        }
+        .place-info {
+            flex: 1;
+        }
+        .place-name {
+            font-size: 1.5em;
+            margin: 0;
+            color: #333;
+        }
+        .rating {
+            margin-top: 10px;
+        }
+        .rating span {
+            color: #ffcc00;
+            font-size: 1.2em;
+        }
+        .rating-text {
+            margin-left: 10px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Recommended Place: Beach Paradise</h1>
+
+        <div class="place-card">
+            <div class="place-image" style="background-image: url('https://example.com/beach.jpg'); background-size: cover;"></div>
+            <div class="place-info">
+                <p class="place-name">Beach Paradise</p>
+                <p>Enjoy the serene beauty of the beach with crystal clear waters and golden sand.</p>
+                <div class="rating">
+                    <span>★★★★☆</span>
+                    <span class="rating-text">4.2/5 based on 1,234 reviews</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="place-card">
+            <div class="place-image" style="background-image: url('https://example.com/mountain.jpg'); background-size: cover;"></div>
+            <div class="place-info">
+                <p class="place-name">Mountain Retreat</p>
+                <p>Perfect for hiking and enjoying the peaceful atmosphere of the mountains.</p>
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <span class="rating-text">4.8/5 based on 890 reviews</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

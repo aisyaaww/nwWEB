@@ -26,13 +26,13 @@ form div {
 form label {
     margin-bottom: 5px;
     font-weight: bold;
-    color: #ff66b2;
+    color: #66a6ff;
 }
 
 form input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ffb3d9;
+    border: 1px solid #66a6ff;
     border-radius: 5px;
     font-size: 16px;
     background-color: #ffe6f2;
@@ -40,7 +40,7 @@ form input {
 
 form button {
     padding: 10px;
-    background: #ff66b2;
+    background: #66a6ff;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -49,5 +49,5 @@ form button {
 }
 
 form button:hover {
-    background: #ff4da6;
+    background: #66a6ff;
 }
