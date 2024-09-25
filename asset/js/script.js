@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event){
     const password = document.getElementById('password').value;
 
     if(username === correctUsername && password === correctPassword){
-        alert('Login sukses');
+        alert('Login berhasil');
         window.location.href = 'index.html';
     }else{
         alert('Login gagal');
